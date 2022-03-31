@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_descriptions",
+  "info": {
+    "displayName": "description",
+    "icon": "text-height"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

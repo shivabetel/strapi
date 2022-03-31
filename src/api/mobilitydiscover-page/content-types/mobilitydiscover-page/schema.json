@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "mobilitydiscover_pages",
+  "info": {
+    "singularName": "mobilitydiscover-page",
+    "pluralName": "mobilitydiscover-pages",
+    "displayName": "mobilitydiscoverPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.button-group",
+        "blocks.carousel-hero-banner",
+        "blocks.promo-card",
+        "mobile.dataplans-section",
+        "mobile.jio-apps-section"
+      ]
+    }
+  }
+}

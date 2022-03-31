@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_appdetail",
+  "info": {
+    "singularName": "page-appdetail",
+    "pluralName": "page-appdetails",
+    "displayName": "page-appdetails",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "versions": {
+      "versioned": true
+    }
+  },
+  "attributes": {
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.carousel-hero-banner",
+        "jio-app.get-now-bottom-section",
+        "jio-app.get-now-top-section"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "app_image_url": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "string"
+    },
+    "slug": {
+      "pluginOptions": {
+        "versions": {
+          "versioned": true
+        }
+      },
+      "type": "uid",
+      "targetField": "uid"
+    },
+    "jioapp": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::jioapps.jioapp"
+    }
+  }
+}

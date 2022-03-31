@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_features",
+  "info": {
+    "displayName": "features",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "appFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.card"
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

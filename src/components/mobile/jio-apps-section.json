@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_mobile_jio_apps_sections",
+  "info": {
+    "displayName": "JioAppsSection",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "headingTitle": {
+      "type": "string"
+    },
+    "appsCard": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mobile.appsblock"
+    }
+  }
+}

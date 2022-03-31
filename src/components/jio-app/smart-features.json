@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_jio_app_smart_features",
+  "info": {
+    "displayName": "smartFeatures",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "smartFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.card"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

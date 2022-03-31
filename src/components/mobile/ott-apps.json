@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_mobile_ott_apps",
+  "info": {
+    "displayName": "OTTApps",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image_url": {
+      "type": "string"
+    }
+  }
+}

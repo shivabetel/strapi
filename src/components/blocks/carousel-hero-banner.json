@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_carousel_hero_banners",
+  "info": {
+    "displayName": "carouselHeroBanner",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "carouselDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.hero-banner"
+    }
+  }
+}

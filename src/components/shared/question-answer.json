@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_question_answers",
+  "info": {
+    "displayName": "QuestionAnswer",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_mobile_dataplans_sections",
+  "info": {
+    "displayName": "dataplansSection",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "planCards": {
+      "type": "component",
+      "repeatable": false,
+      "component": "mobile.plan-cards"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jioapps",
+  "info": {
+    "singularName": "jioapp",
+    "pluralName": "jioapps",
+    "displayName": "jioapp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true,
+    "comment": ""
+  },
+  "attributes": {
+    "logo": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.faq",
+        "blocks.features",
+        "blocks.testimonials",
+        "jio-app.smart-features"
+      ]
+    },
+    "uid": {
+      "type": "uid"
+    },
+    "short_description": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "cardButtons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    }
+  }
+}

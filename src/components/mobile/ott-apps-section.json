@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_mobile_ott_apps_sections",
+  "info": {
+    "displayName": "ottAppsSection",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ottAppsHeaderSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.header"
+    },
+    "ottApps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "mobile.ott-apps"
+    }
+  }
+}

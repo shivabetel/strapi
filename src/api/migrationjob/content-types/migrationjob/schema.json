@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "migrationjobs",
+  "info": {
+    "singularName": "migrationjob",
+    "pluralName": "migrationjobs",
+    "displayName": "migrationjob",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "modelId": {
+      "type": "string"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": [
+        "completed",
+        "failed",
+        "inprogress"
+      ]
+    },
+    "payload": {
+      "type": "json"
+    },
+    "start_date_time": {
+      "type": "datetime"
+    },
+    "end_date_time": {
+      "type": "datetime"
+    },
+    "error": {
+      "type": "json"
+    }
+  }
+}

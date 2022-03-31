@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_promo_cards",
+  "info": {
+    "displayName": "PromoCard",
+    "icon": "bullhorn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "promoCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.hero-banner"
+    },
+    "headingTitle": {
+      "type": "string"
+    }
+  }
+}

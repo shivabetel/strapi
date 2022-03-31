@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_mobile_postpaid_user_sections",
+  "info": {
+    "displayName": "postpaidUserSection",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headingTitle": {
+      "type": "string"
+    },
+    "postpaidUserSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.card-with-buttons"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_button_groups",
+  "info": {
+    "displayName": "ButtonGroup",
+    "icon": "unlink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "buttonGroup": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    }
+  }
+}

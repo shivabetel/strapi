@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "apps_pages",
+  "info": {
+    "singularName": "apps-page",
+    "pluralName": "apps-pages",
+    "displayName": "appsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.carousel-hero-banner"
+      ]
+    },
+    "jioapps": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::jioapps.jioapp"
+    }
+  }
+}

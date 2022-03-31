@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_mobile_plan_cards",
+  "info": {
+    "displayName": "planCards",
+    "icon": "vr-cardboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headingTitle": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    },
+    "plans": {
+      "type": "json"
+    },
+    "labels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.label"
+    },
+    "cardbuttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    }
+  }
+}

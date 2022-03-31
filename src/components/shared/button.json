@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "star-of-life",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "tertiary"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    }
+  }
+}

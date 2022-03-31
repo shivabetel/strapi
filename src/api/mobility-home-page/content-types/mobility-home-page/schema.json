@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mobility_home_pages",
+  "info": {
+    "singularName": "mobility-home-page",
+    "pluralName": "mobility-home-pages",
+    "displayName": "mobilityHome-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.carousel-hero-banner",
+        "mobile.dataplans-section",
+        "mobile.jio-apps-section",
+        "mobile.ott-apps-section",
+        "mobile.postpaid-user-section",
+        "blocks.hero",
+        "blocks.button-group"
+      ]
+    }
+  }
+}

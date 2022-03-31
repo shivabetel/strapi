@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_labels",
+  "info": {
+    "displayName": "Label",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

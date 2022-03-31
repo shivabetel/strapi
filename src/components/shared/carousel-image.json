@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_carousel_images",
+  "info": {
+    "displayName": "carouselImage",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "target": {
+      "type": "string"
+    },
+    "image_url": {
+      "type": "string"
+    }
+  }
+}

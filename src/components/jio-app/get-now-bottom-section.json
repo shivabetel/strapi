@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_jio_app_get_now_bottom_sections",
+  "info": {
+    "displayName": "GetNowBottomSection",
+    "icon": "arrow-circle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bottomHeader": {
+      "displayName": "GetNowHeader",
+      "type": "component",
+      "repeatable": false,
+      "component": "jio-app.get-now-header"
+    }
+  }
+}

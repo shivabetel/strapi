@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_mobile_appsblocks",
+  "info": {
+    "displayName": "apps",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "jioapps": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::jioapps.jioapp"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    }
+  }
+}
