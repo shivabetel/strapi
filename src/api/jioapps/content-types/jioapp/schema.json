@@ -37,7 +37,8 @@
         "blocks.faq",
         "blocks.features",
         "blocks.testimonials",
-        "jio-app.smart-features"
+        "jio-app.smart-features",
+        "blocks.button-group"
       ]
     },
     "uid": {
